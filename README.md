@@ -1,0 +1,1 @@
+Elasticsearch docker image with preinstalled and preconfigured ru_RU and en_US dictionaries
