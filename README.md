@@ -5,7 +5,9 @@ Original Russian dictionary by Alexander Klukvin https://code.google.com/archive
 Surnames dictionary by Andrey Groshev https://github.com/greenx/hunspell-ru-surnames
 
 Locale name us *ru_RU*
+
 Dictionaries are *ru_RU* and *ru_surname*
+
 *ru_RU* dictionary is configured with `ignore_case: true`
 
 How to use:
