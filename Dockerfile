@@ -9,4 +9,4 @@ COPY ru_RU.* ru_surname.dic settings.yml /usr/share/elasticsearch/config/hunspel
 
 RUN chown -R elasticsearch:elasticsearch /usr/share/elasticsearch/config/hunspell
 
-HEALTHCHECK --interval=30s --timeout=15s --retries=15 CMD curl --fail http://localhost:8091/pools || exit 1
+HEALTHCHECK --interval=15s --timeout=10s --retries=15 CMD curl --silent --fail localhost:9200/_cluster/health || exit 1
