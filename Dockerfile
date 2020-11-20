@@ -1,4 +1,4 @@
-FROM elasticsearch:7.9.3
+FROM elasticsearch:7.10.0
 
 RUN yum -y install hunspell-en-US
 
