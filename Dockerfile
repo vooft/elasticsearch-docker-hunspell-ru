@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.12.0
 
 RUN yum -y install hunspell-en-US
 
