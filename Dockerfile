@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+FROM elasticsearch:7.17.5
 
 RUN mkdir -p /usr/share/elasticsearch/config/hunspell/en_US \
     && mkdir -p /usr/share/elasticsearch/config/hunspell/ru_RU/
