@@ -1,4 +1,4 @@
-FROM elasticsearch:8.9.0
+FROM elasticsearch:8.9.1
 
 RUN mkdir -p /usr/share/elasticsearch/config/hunspell/en_US \
     && mkdir -p /usr/share/elasticsearch/config/hunspell/ru_RU/
